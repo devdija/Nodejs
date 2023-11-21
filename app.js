@@ -6,7 +6,7 @@ const Blog = require('./models/blogSchema');
 
 // express app
 const app = express();
-const db = "mongodb+srv://yusufkhadijat:Ozohu123@cluster0.xc25mmj.mongodb.net/Node?retryWrites=true&w=majority";
+const db = "mongodb+srv://*****:****@cluster0.xc25mmj.mongodb.net/Node?retryWrites=true&w=majority";
 mongoose.connect(db, {useNewUrlParser: true, useUnifiedTopology:true})
 .then((result)=> {
     console.log('listening to port 8080');
